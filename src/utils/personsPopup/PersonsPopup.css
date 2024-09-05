@@ -1,0 +1,54 @@
+
+.personsPopup {
+    width: 217px;
+    margin-top: 10px;
+    border-radius: 5px;
+    padding: 9px;
+    position: absolute;
+    font-family: "Fira Sans Condensed", sans-serif;
+    background-color: #ffff;
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    gap: 3px;
+    z-index: 1000;
+}
+
+.titlePopup {
+    font-size: 16px;
+}
+
+.popupBox {
+    display: flex;
+    justify-content: center;
+    padding: 4px;
+    margin-top: 10px;
+}
+
+.age {
+    font-size: 15px;
+    color: #949494;
+    flex: 1;
+}
+
+.btnBox {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 100%;
+    flex: 1;
+}
+
+.btnPersons {
+    width: 30px;
+    height: 30px;
+    font-size: 20px;
+    border-radius: 50%;
+    border: none;
+    color: #ffff;
+}
+
+.btnActive {
+    background-color: #f07c0c;
+}

@@ -1,0 +1,38 @@
+.houseWrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    max-width: 100%;
+    min-height: max-content;
+}
+
+
+.wrapper2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 100%;
+}
+
+.wrapper7 {
+    max-width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.wrapper8 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 190px;
+    margin-top: 30px;
+}
+
+.noMatches {
+    color: #51656f;
+    font-family: "Anta", sans-serif;
+    font-size: 30px;
+}

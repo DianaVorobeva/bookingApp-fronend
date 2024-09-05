@@ -1,0 +1,53 @@
+/*--- Desktop --- */
+@media screen and (max-width : 1700px) {
+
+}
+
+/*--- Tablet landscape --- */
+@media screen and (max-width : 1224px) {
+
+}
+
+/*--- Small tablet landscape ---*/
+@media screen and (min-width:801px) and (max-width : 1024px) {
+    .wrapperApp {
+        max-width: 801px;
+      }
+}
+
+/*--- Tablet portrait ---*/
+@media screen and (min-width:691px) and (max-width : 800px) {
+  .wrapperApp {
+    max-width: 691px;
+  }
+}
+
+
+/*--- Small tablet portrait ---*/
+@media screen and (min-width:596px) and (max-width : 690px) {
+  .wrapperApp {
+    max-width: 596px;
+  }
+}
+
+/*--- Mobile landscape ---*/
+@media screen and (min-width:481px) and (max-width : 595px) {
+  .wrapperApp {
+    max-width: 481px;
+  }
+}
+
+/*--- Mobile portrait ---*/
+@media screen and (min-width:321px) and (max-width : 480px) {
+
+  .wrapperApp {
+    max-width: 321px;
+  }
+}
+
+/* --- Small screen --- */
+@media screen and (max-width : 320px) {
+  .wrapperApp {
+    max-width: 320px;
+  }
+}
